@@ -10,6 +10,7 @@ gem 'jbuilder'
 gem 'devise'
 gem 'private_pub'
 gem 'thin'
+gem 'font-awesome-sass'
 gem 'sdoc',         group: :doc
 
 group :development do
