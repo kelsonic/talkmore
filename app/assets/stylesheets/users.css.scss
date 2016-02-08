@@ -21,3 +21,7 @@ li.media a {
   opacity: 0; /* Fix to make div clickable in IE */
   filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
+
+.table th {
+  border: 2px solid #aad80e !important;
+}

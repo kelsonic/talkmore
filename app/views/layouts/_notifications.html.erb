@@ -1,14 +1,20 @@
 <div class="container">
   
   <% if alert %>
-    <div class="alert alert-danger" role="alert">
-      <%= alert %>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="alert alert-danger text-center" role="alert">
+        <a class="close" title="close" aria-label="close" data-dismiss="alert" href="#">×</a>
+        <%= alert %>
+      </div>
     </div>
   <% end %>
   
   <% if notice %>
-    <div class="alert alert-success" role="alert">
-      <%= notice %>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="alert alert-success text-center" role="alert">
+        <a class="close" title="close" aria-label="close" data-dismiss="alert" href="#">×</a>
+        <%= notice %>
+      </div>
     </div>
   <% end %>
   
