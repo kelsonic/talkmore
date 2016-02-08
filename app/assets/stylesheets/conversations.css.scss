@@ -1,3 +1,19 @@
 // Place all the styles related to the conversations controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.conversation-row {
+  padding-top: 5px;
+  margin-top: 10px;
+  background-color: #b6e5f3;
+  border: 2px solid #8ad5ec;
+}
+
+.conversation-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #b6e5f3;
+  border: 2px solid #8ad5ec;
+  border-radius: 20px;
+}
